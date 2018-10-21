@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import * as firebase from 'firebase';
+import * as firebase from 'firebase/app';
 
 @Component({
   selector: 'app-root',
@@ -14,7 +14,7 @@ export class AppComponent {
       databaseURL: "https://bookshelves-demo.firebaseio.com",
       projectId: "bookshelves-demo",
       storageBucket: "",
-      messagingSenderId: "272657330815"
+      messagingSenderId: '272657330815'
     };
     firebase.initializeApp(config);
   }
