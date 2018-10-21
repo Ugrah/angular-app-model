@@ -8,14 +8,7 @@ import * as firebase from 'firebase';
 })
 export class AppComponent {
   constructor() {
-    var config = {
-      apiKey: "AIzaSyAE4hkpmRIQITQuCpkj2qGhU4yfFOMytTM",
-      authDomain: "bookshelves-demo.firebaseapp.com",
-      databaseURL: "https://bookshelves-demo.firebaseio.com",
-      projectId: "bookshelves-demo",
-      storageBucket: "",
-      messagingSenderId: "272657330815"
-    };
+    var config = {};
     firebase.initializeApp(config);
   }
 }
