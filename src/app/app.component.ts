@@ -8,15 +8,15 @@ import * as firebase from 'firebase/app';
 })
 export class AppComponent {
   constructor() {
+    // Initialize Firebase
     var config = {
       apiKey: "AIzaSyAE4hkpmRIQITQuCpkj2qGhU4yfFOMytTM",
       authDomain: "bookshelves-demo.firebaseapp.com",
       databaseURL: "https://bookshelves-demo.firebaseio.com",
       projectId: "bookshelves-demo",
-      storageBucket: "",
-      messagingSenderId: '272657330815'
+      storageBucket: "bookshelves-demo.appspot.com",
+      messagingSenderId: "272657330815"
     };
-    
     firebase.initializeApp(config);
   }
 }
