@@ -15,7 +15,7 @@ export class SigninComponent implements OnInit {
 
   constructor(private formBuilder: FormBuilder,
               private authService: AuthService,
-              private router: Router) { }
+              private router: Router) {}
 
   ngOnInit() {
     this.initForm();
